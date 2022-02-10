@@ -1,0 +1,1795 @@
+					**html proper structure**
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>first webpage</title>
+    </head>
+    <body>
+        <h1>hello my name is Madhavi</h1>
+        <h1> hello</h1>
+        <p>and this is my first web page</p>
+        <p>this is emmet p</p>
+    </body>
+</html>
+-------------------------------------------------------------------------------------
+					**headings in html**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Iam heading-1</h1>
+    <h2>iam heading-2</h2>
+    <h3>iam heading-3</h3>
+    <h4>iam heading-4</h4>
+    <h5>iam heading-5</h5>
+    <h6>iam heading-6</h6>
+</body>
+</html>
+---------------------------------------------------------------------------------------
+					PARAGRAPH STRUCTURE OF HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Hello         world</h3>
+    <p>
+        Hii Iam varagani madhavi and this is my paragraph
+    </p>>
+</body>
+</html>
+---------------------------------------------------------------------------------------------
+					EMMET STRUCTURE,BR,IMG TAGS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.udemy.com/">
+        <img src="/images/laptop.jpeg" width="200" alt="">
+    </a>
+    <!--Udemy image-->
+    <h1 id="top">top of page</h1>
+    <a href="about.html" about></a>
+    <h3>image of udemy</h3>
+    <img src="/images/udemy.png" alt="Image of udemy">
+    <h3>image of laptop</h3>
+    <img src="/images/laptop.jpeg"  width="259 " height="194" alt="Image of laptop">
+    <a href="https://www.udemy.com/"
+    target="_blank">visit udemy for more info</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <p>some text here</p>
+    <a href="#top">back to the top</a>
+    
+</body>
+</html>
+------------------------------------------------------------------------------------------
+					LIST ITEMS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#"> home</a></li>
+        <li><a href="#"> about</a></li>
+        <li><a href="#"> contact</a></li>
+    </ul>>
+</body>
+</html>
+
+OUTPUT:
+.Madhavi
+.Amulya
+.Manideep
+-------------------------------------------------------------------------------------------------
+					ORDERED LIST
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>Madhavi</li>
+        <li>Amulya</li>
+        <li>Manideep</li>
+    </ol>
+</body>
+</html>
+
+OUTPUT:
+1.Madhavi
+2.Amulya
+3.Manideep
+------------------------------------------------------------------------------------------------
+					**NESTED LISTS**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested List</title>
+</head>
+<body>
+    <ul>
+        <li>Madhavi</li>
+        <li>Amulya</li>
+        <ol>
+            <li>html</li>
+            <li>css</li>
+        </ol>
+        <li>Manideep</li>
+    </ul>
+</body>
+</html>
+
+OUTPUT:
+.Madhavi
+.Amulya
+	1.html
+	2.css
+.Manideep
+------------------------------------------------------------------------------------------
+					**TABLE ELEMENT IN HTML**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>some info</th>
+            <th>some info</th>
+            <th>some info</th>
+        </tr>
+        <tr>
+            <td>Madhavi</td>
+            <td>Amulya</td>
+            <td>Manideep</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+OUTPUT:
+
+
+some info	some info	some info
+Madhavi		Amulya		Manideep
+----------------------------------------------------------------------------------------------
+					**FORM ELEMENTS**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="name">first name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <p>password</p>
+        <input type="password" placeholder="password" id="">
+        <br>
+        <input type="email" name="" id="" value="email@email">
+        <br>
+        <p>description</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <p>please select ur coding language</p>
+        <input type="radio" name="coding" id="" value="javascript">Javascript
+        <input type="radio" name="coding" id="" value="java">Java 
+        <input type="radio" name="coding" id="" value="Python">Python
+        <br>
+        <p>please select ur coding language</p>
+        <input type="checkbox"  value="javascript" name="programming" id="">javascript
+        <input type="checkbox"  value="java" name="programming" id="">java
+        <input type="checkbox"  value="python" name="programming" id="">python
+        <br>
+        <p>please select ur coding language</p>
+        <select name="languages" id="">
+            <option value="javascript">javascript</option>
+            <option value="java">java</option>
+            <option value="python">python</option>
+        </select>
+        <br>
+        <br>
+        <!---  <button type="submit">submit</button>--->
+        <input type="submit" value="please submit">
+    </form>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------
+					 **PROJECT**
+--------------------------------------------------------------------------------------------------------
+					**1.INDEX.HTML**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Junkie</title>
+</head>
+<body>
+    <img src="./images/logo.png" alt="coffe logo" id="logo">
+    <h3>Coffe Junkie</h3>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+    <img src="./images/background.png"  width="100%" alt="coffe beans">
+    <br>
+    <!--House blend-->
+    <h1>featured product</h1>
+    <br>
+    <h2>House blend coffe</h2>
+    <img src="./images/c1.png" alt="House blend">
+    <p style="width:50% "> Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptatem ea minima libero similique praesentium maiores, sapiente sit vitae aperiam perferendis dolore labore nostrum velit animi harum maxime iste rem.</p>
+    <h3><a href="https://www.wikipedia.org" target="_blank">Details</a></h3>
+    <br/>
+
+
+    <!--French Roast-->
+    <h1>featured product</h1>
+    <br>
+    <h2>French Roast </h2>
+    <img src="./images/c2.png" alt="French Roast">
+    <p style="width:50% "> Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptatem ea minima libero similique praesentium maiores, sapiente sit vitae aperiam perferendis dolore labore nostrum velit animi harum maxime iste rem.</p>
+    <h3><a href="https://www.wikipedia.org" target="_blank">Details</a></h3>
+    <br/>
+
+    <!--Colombian Roast-->
+    <h1>featured product</h1>
+    <br/>
+    <br/>
+    <h2>Columbian Roast </h2>
+    <img src="./images/c3.png" alt="French Roast">
+    <p style="width:50% "> Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptatem ea minima libero similique praesentium maiores, sapiente sit vitae aperiam perferendis dolore labore nostrum velit animi harum maxime iste rem.</p>
+    <h3><a href="https://www.wikipedia.org" target="_blank">Details</a></h3>
+    <br/>
+    <br>
+    <br>
+    <br>
+    <p>Copyright &copy:2022;</p>
+    <h3><a href="#logo">Back to top</a></h3>
+</body>
+
+</html>
+---------------------------------------------------------------------------------------------------
+					**2.ABOUT.HTML**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<body>
+    <img src="./images/logo.png" alt="coffe logo" id="logo">
+    <h3>Coffe Junkie</h3>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+    <img src="./images/background.png"  width="100%" alt="coffe beans">
+    <br>
+    <h1>About us</h1>
+    <br/>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eligendi architecto aspernatur ducimus cupiditate accusamus ipsa? Ullam est labore sapiente quis soluta incidunt dolores quo, fuga sequi reiciendis distinctio debitis error officiis dolor quasi voluptatem aperiam fugiat iusto dolore laborum architecto nemo temporibus veniam maiores! Vero quis libero laudantium autem animi quae, molestiae, totam sint repellendus deserunt sit dolores ab nesciunt consequatur. Sapiente, voluptas. Nulla obcaecati facere odio. Quos laborum pariatur quibusdam aut, sunt, fugit totam quaerat ipsam perferendis, maxime odit aspernatur iste atque! Mollitia, ducimus perferendis, consequuntur dolorem labore praesentium commodi error aliquid vitae ipsa assumenda deleniti? Laudantium vero sapiente quisquam similique dignissimos, illum tempora, tenetur nobis praesentium dolor perspiciatis illo voluptas! A sequi, cumque quaerat dolores quibusdam eos commodi hic. Aspernatur officiis earum praesentium aperiam temporibus saepe facilis commodi quaerat dolores sed debitis necessitatibus, quidem consequuntur ipsam quam dolorem illum cum deleniti corporis hic officia fugiat nam corrupti voluptatum? Voluptate corporis nesciunt harum consectetur praesentium porro at ullam explicabo sunt nemo ea ratione repellat fugiat temporibus, dignissimos ad placeat atque ut recusandae iusto. Ullam fuga, maiores molestias ut mollitia voluptatum amet numquam totam qui facilis, nam ab recusandae aspernatur doloribus eaque magni libero necessitatibus unde, expedita possimus repellat tempore quisquam. Nostrum, illo rerum repudiandae harum ad maiores eius vero doloribus! A nostrum vitae, maiores molestias laborum mollitia iure ipsa aperiam molestiae, tenetur sapiente numquam assumenda sequi fuga amet est cum quae expedita enim! Exercitationem quae obcaecati nam odit laboriosam voluptas maiores aspernatur sit nemo. Incidunt nulla iste, sint itaque perspiciatis velit fugiat odio atque ducimus eum aliquid labore reprehenderit maxime hic quisquam ex consequatur culpa? Voluptatem impedit tempora, ad natus maxime odit voluptate! Aperiam, ad! Eaque odit labore cum consequuntur, nemo ratione magni totam repellendus quaerat rerum dolores. Officia porro molestias impedit, quos autem repudiandae! Rerum consectetur nesciunt deserunt ea inventore, fugiat itaque officia modi delectus aliquam nemo fugit fuga alias veritatis, aspernatur nihil placeat amet rem repudiandae minima vero sapiente harum! Rem enim provident error accusantium, voluptatum molestias dolorem, atque pariatur, voluptate vero placeat esse facere delectus maiores consectetur sunt repellendus. Maiores sequi obcaecati, omnis facilis illo quos id, earum aut quod molestiae vero, dignissimos dolorem iure? Natus, dolor debitis! Quae itaque assumenda possimus, id blanditiis mollitia ipsum magnam sapiente distinctio fugit. Ex sint minus aliquam nulla qui magnam minima eaque numquam? Magnam optio esse nostrum debitis dicta error facilis id ratione iusto et, pariatur odio nihil, amet asperiores officiis repellat aliquid. Sint neque eligendi distinctio doloribus atque facere quibusdam illum, ipsum, a, dolore impedit facilis qui modi blanditiis delectus porro quidem. Quidem magni perferendis, voluptate rerum nemo aliquam beatae provident cumque adipisci cum, eaque quasi. Repellat, sint! A ipsam rerum, deleniti laudantium atque quia odio perferendis voluptatum necessitatibus eum, et officiis! Consequuntur consequatur, provident, ex rem eligendi reprehenderit maxime earum harum veritatis, exercitationem qui! Illo distinctio laborum itaque, provident, modi aperiam iste ipsa sequi mollitia dolores eligendi! Vel accusantium, quasi eius, cupiditate molestiae voluptatum distinctio culpa, fugit consectetur similique nulla illum dolor consequuntur fugiat? Assumenda, in.</p>
+    <br>
+    <br>
+    <br>
+    <p>Copyright &copy:2022;</p>
+    <h3><a href="#logo">Back to top</a></h3>
+</body>
+
+</html>
+----------------------------------------------------------------------------------------------------
+						**3.NUMBERS.HTML**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers</title>
+</head>
+<body>
+    <img src="./images/logo.png" alt="coffe logo" id="logo">
+    <h3>Coffe Junkie</h3>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+    <img src="./images/background.png"  width="100%" alt="coffe beans">
+    <br>
+    <h1>Our Stores</h1>
+    <table style="border:2px solid black; border-spacing:25px">
+        <!--City-->
+        <tr>
+            <th>City</th>
+            <th>Guntur</th>
+            <th>Vijayawada</th>
+            <th>Hyderabad</th>
+        </tr>
+        <!---end of city-->
+
+        <!---Orders-->
+        <tr>
+            <td>Orders</td>
+            <td>125</td>
+            <td>250</td>
+            <td>500</td>
+        </tr>
+        <!--end of orders-->
+
+        <!---Profit-->
+        <tr>
+            <td>Profit</td>
+            <td>10,000/-</td>
+            <td>$ 20,000/-</td>
+            <td>30,000/-</td>
+        </tr>
+        <!--end of Profit-->
+
+    </table>
+    <br/>
+    <br>
+    <br>
+    <br>
+    <p>Copyright &copy:2022;</p>
+    <h3><a href="#logo">Back to top</a></h3>
+</body>
+
+</html>
+---------------------------------------------------------------------------------------------------
+						**4.CONTACT.HTML**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <img src="./images/logo.png" alt="coffe logo" id="logo">
+    <h3>Coffe Junkie</h3>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+    </ul>
+    <img src="./images/background.png"  width="100%" alt="coffe beans">
+    <br>
+    <h1>Contact Us</h1>
+    <br/>
+    <form action=""></form>
+    <!---name-->
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <!---email-->
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    <br>
+    <br>
+    <!---description-->
+    <p>Description</p>
+    <textarea name="description" id="" cols="30" rows="10" placeholder="Your Description"></textarea>
+    <br>
+    <br>
+    <br>
+    <p>Copyright &copy:2022;</p>
+    <h3><a href="#logo">Back to top</a></h3>
+</body>
+
+</html>
+--------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+					**CSS***
+------------------------------------------------------------------------------------------------
+				    **SETTINGS.JSON**
+					
+{
+    "window.zoomLevel":2,
+    "editor.fontSize": 26,
+    "editor.tabSize":1,
+    "files.autoSave": "off",
+    "editor.wordWrap":"on",
+    "editor.fontOnPaste": true,
+    "editor.fontOnSave": true,
+    "editor.minimap.enabled":false,
+
+
+    "highlight-matching-tag.styles": {
+        "opening": {
+          "left": {
+            "custom": {
+              "borderWidth": "0 0 0 3px",
+              "borderStyle": "solid",
+              "borderColor": "yellow",
+              "borderRadius": "5px",
+              "overviewRulerColor": "white"
+            }
+          },
+          "right": {
+            "custom": {
+              "borderWidth": "0 3px 0 0",
+              "borderStyle": "solid",
+              "borderColor": "yellow",
+              "borderRadius": "5px",
+              "overviewRulerColor": "white"
+            }
+          }
+        }
+      }
+
+}
+----------------------------------------------------------------------------------------------
+				**1.INLINE CSS**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+</head>
+<body>
+    <!-- inline css-->
+    <h1 style="color:red;font-size: 3rem;">Hello world</h1>
+    <h2>Hello people</h2>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------
+				**2.INTERNAL CSS**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <style>
+        h1{
+            color: blue;
+            font-size: 3rem;
+        }
+        h2{
+            color: red;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- internal css-->
+    <h1>Hello world</h1>
+    <h2>Hello world</h2>
+    <h2>Hello world</h2>
+    <h2>Hello people</h2>
+
+</body>
+</html>
+--------------------------------------------------------------------------------------------
+					**3.EXTERNAL CSS**
+1)INDEX.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <style>
+        h1{
+            color: blue;
+            font-size: 3rem;
+        }
+        h2{
+            color: red;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- external css-->
+    <a href="index.html">home page</a>
+    <h1>Hello world</h1>
+    <h2>Hello world</h2>
+    <h2>Hello world</h2>
+    <h2>Hello people</h2>
+
+</body>
+</html>
+		-------------------------------
+2)ABOUT.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    
+    
+</head>
+<body>
+    <a href="index.html">home page</a>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h1>hello world</h1>
+    <h2>hello people</h2>
+    <h2>hello people</h2>
+    <h2>hello people</h2>
+
+
+</body>
+</html>
+----------------------------------------------------------------------------------------------
+				**CSS**
+h1{
+    color: crimson;
+}
+h2{
+    color: blue;
+}
+---------------------
+/*ID*/
+#title{
+    color: green;
+    background: black;
+}
+#subheading{
+    color: red;
+    background: grey;
+}
+-------------------------
+/* Class selectors*/
+
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+#title{
+    font-size: 40px;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+-----------------------------
+/* DIV SPAN*/
+
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+div{
+    color: red;
+    background: grey;
+}
+span{
+    text-transform: uppercase;
+}
+--------------------------------------
+/* INHERITANCE*/
+body{
+    font-family: monospace;
+    line-height: height 1.5em; ;
+}
+div{
+    color: blue;
+    border: 3px solid black;
+}
+h2{
+    color: green;
+}
+---------------------------------------
+/* Last rule And Specificity * Universal Selector*/
+p{
+    color: red;
+}
+*{
+    color: blue;
+}
+------------------------------------------------------------------------------------------
+/*COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR */
+#first{
+    color: lightgray;
+    background-color: chocolate;
+}
+#second{
+    color: crimson;
+    background:yellow ;
+}
+------------------------------------------------------------------------------------------
+/* RGB RED GREEN BLUE 0-255*/
+
+#first{
+    color: rgb(255,0,0);
+    background-color: rgb(0,0,0);
+}
+#second{
+    color: rgb(0,255,0);
+    background: rgb(255,255,255) ;
+}
+#three{
+    color: rgb(0,0,255);
+    background: rgb(100,100,100);
+}
+body{
+    background: rgb(100,34,210);
+
+}
+--------------------------------------------------------------------------------------
+/* RGB  0-1 capacity/transparency*/
+
+#first{
+    color: rgb(100,123,156);
+    background: rgba(0,0,0,0.5);
+}
+#second{
+    color: rgb(45,10,34);
+    background: rgba(0,0,0,0.5);
+}
+#three{
+    color: rgb(255,10,34);
+    background: rgba(0,0,0,0.25);
+}
+---------------------------------------------------------------------------------------
+/* 
+HSL
+HEX values # RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+            10 11 12 13 14 15
+            #FF0000-RED
+            #00FF00-GREEN
+*/
+
+#first{
+    color:#ff5100ec;
+    background: #000;
+}
+#second{
+    color: #fff;
+    background: #00FF00;
+}
+#three{
+    color: #0000ff;
+    background: #f15025;
+}
+#four{
+    color: #f234ad;
+    background: #222;
+}
+------------------------------------------------------------------------------------------
+/* font-size,width,height,pixels */
+
+
+h1{
+    font-size: 30px;
+    width: 200px;
+    height: 300px;
+    background: blue;
+}
+-------------------------------------------------------------------------------------------
+/* percent values-relative */
+
+.outer{
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+
+
+
+.inner{
+    width: 100%;
+    height: 50%;
+    background: red;
+}
+------------------------------------------------------------------------------------------
+/*
+em-RELATIVE depends on parent
+lem= 16px default browser style;
+lem=base value
+
+*/
+div{
+    font-size: 10px;
+    
+}
+.relative{
+    font-size: 2em;
+}
+.absolute{
+    font-size: 32px;
+}
+-----------------------------------------------------------------------------------------
+/*
+vh - height-percent of the screen
+vw - width-percent of the screen
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 50vw;
+    height: 50vh;
+    background: red;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+}
+-----------------------------------------------------------------------------------------
+/* 
+default browser styles and google devTools
+*/
+h2{
+    color: red;
+    font-size: 60px;
+}
+-------------------------------------------------------------------------------------------
+/*
+calc ()
+perform match operations + - * /
+mix and match values
+*/
+
+*{
+    margin: 0;
+
+}
+.navbar{
+    background: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+.banner{
+    background: red;
+    min-height: calc(100vh - 100px);
+}
+---------------------------------------------------------------------------------------------------
+/*
+font-size,font-family
+*/
+
+body{
+    font-family: helvetica;
+}
+h1{
+    font-family: verdana;
+}
+--------------------------------------------------------------------------------------------------
+
+/*
+font-size,font-family
+serif,sans-serif,cursive,fantacy,monospace
+*/
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+---------------------------------------------------------------------------------------------------
+@import url("https://fonts.googleeapis.com/css?family=Roboto:400,700i|Yesteryear");
+
+/*
+ GOOGLE FONTS
+*/
+
+body{
+    font-family: 'yesteryear',cursive;
+    
+
+}
+h1{
+    font-family: 'Roboto',sans-serif;
+}
+
+
+-------------------------------------------------------------------------------------------------------
+
+/*
+font-weight
+font-style
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.main{
+    font-family: 'Yesteryear',cursive;
+}
+.subheading{
+    font-style: normal;
+}
+.one{
+    font-weight: bold;
+}
+.two{
+    font-weight: lighter;
+}
+--------------------------------------------------------------------------------
+/*
+text-align
+text-indent
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+.main{
+    font-family: 'Yesteryear',cursive;
+    text-align: center;
+}
+.subheading{
+
+}
+.one{
+    text-indent: 10rem;
+
+}
+.two{
+    text-align: left;
+}
+------------------------------------------------------
+/*
+line height
+letter-spacing
+word spacing
+text-transform
+text-decoration;
+*/
+a{
+    font-size: 40px;
+    text-decoration: none;
+}
+body{
+    text-transform: uppercase;
+}
+h1{
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+
+.one{
+    line-height: 1.5em;
+}
+.two{
+    letter-spacing: 5px;
+    text-decoration: overline;
+    line-height: 2rem;
+    text-decoration: underline;
+}
+.three{
+    word-spacing: 20px;
+}
+---------------------------------------------------------------------------------------------
+					**CSS BOX MODEL**
+		Total 4 Levels:
+		1.Margin
+		2.Border
+		3.Padding
+		4.Content
+
+
+/*
+CSS Box model
+*/
+
+h1 {
+    background: red;
+    padding: 20px;
+    margin: 30px;
+    /*padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 50px;*/
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-bottom-color: #222;
+
+}
+p {
+    background: blue;
+    padding: 20px;
+    border: 13px solid yellow;
+    /*margin: 100px 20px 20px 50px;*/
+    border-radius: 50%;
+    margin-top:-100px;
+
+}
+--------------------------------------------------------------------------------------------------
+					**Default Display property**
+
+/*Default Display Property
+    Block: Always starts a new line and takes full width
+    Inline: Does not start and only takes up as much as content space.
+*/
+
+.block {
+    background: blue;
+    color: white;
+    display: inline;
+}
+.inline {
+    background: red;
+    color: white;
+    display: block;
+
+}
+--------------------------------------------------------------------------------------------------------------
+					**Horizontal Centering**
+/*
+    Horizontal Centering
+*/
+
+body {
+    text-align: center;
+}
+
+.block {
+    background:blue;
+    color: white;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inline{
+    background: red;
+    color: white;
+}
+--------------------------------------------------------------------------------------------------------------------
+					**Display: none opacity, visibility**
+/*
+    display: none
+    opacity: 0
+    visibility:hidden;
+
+*/
+
+div {
+    background: blue;
+    margin: 10px;
+    color: white;
+}
+
+.none {
+    display: none;
+}
+
+.opacity {
+    opacity: 1;
+
+}
+.opacity {
+    opacity: 0.5;
+}
+.opacity-0 {
+    opacity: 0;
+}
+.visibility {
+    visibility: hidden;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+						**Background image setup**
+div{
+    height: 400px;
+    color: red;
+}
+
+.big-img {
+    background: url("./big.jpeg");
+}
+
+.small-img {
+    background: url("./small.jpeg");
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-repeat: space;
+}
+.folder-img {
+    background: url("./img/folder-img.jpeg");
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+						**Linear-Gradient**
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.one{
+    background: linear-gradient(red, green);
+}
+
+.two{
+    background: linear-gradient(to top, red, green, blue, yellow);
+}
+
+.three {
+    background: linear-gradient(315deg, red, green);
+}
+
+.four {
+    background: linear-gradient(to top right, red, green, yellow);
+}
+
+.five {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.9));
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+						**Linear Gradient Colorzilla**
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{ 
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+
+.banner {
+    background: url("./big.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("./big.jpeg");
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+				**position absolute**
+*position absolute*/
+div { 
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    position: static;
+}
+
+.one {
+    background: green;
+}
+
+.two {
+    background: green;
+}
+
+.special {
+    background: lightcoral;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+---------------------------------------------------------------------------------------------------------
+				**media queries**
+
+/*
+    media queries
+    responsive design
+    style elements on different screen sizes
+*/
+
+body{
+    background: yellow;
+}
+
+.banner {
+    background: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+@media screen and(min-width: 576px){
+    body{
+        background: red;
+    }
+    .banner {
+        background: yellow;
+    }
+    h1{
+        color: black;
+        font-size: 60px;
+    }
+}
+
+---------------------------------------------------------------------------------
+				**z-index**
+/*
+    z-index --- z-axis
+    position: static --- does not work
+*/
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.banner{
+    margin: 20px;
+    width: 80vw;
+    height: 70vh;
+    border: 5px solid red;
+    position: relative;
+}
+.one{
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 0;
+}
+.two{
+    top: 10%;
+    left: 20%;
+    z-index: -1;
+}
+.three {
+    top: 20%;
+    left: 20%;
+    z-index: -2;
+}
+---------------------------------------------------------------------------------------
+				**before and after psuedo elements**
+
+/*
+    psuedo elements ::before ::after CONTENT not element
+    content:'' --- required
+    im ---does not work
+*/
+
+p::before {
+    content :"hello";
+    display: block;
+    background: black;
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+p::after{
+    content: "after";
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+div{
+    width: 60vw;
+    margin: 100px auto;
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+div::before {
+    content: "";
+    border: 2px solid grey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -40px;
+    left: -40px;
+    z-index: -2;
+    transition: all 0.5s linear;
+}
+
+div::after {
+    content: "";
+    border: 2px solid grey;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    transition: all 0.5s linear;
+}
+
+div:hover::after
+div:hover::before {
+    top: 0;
+    left: 0;
+}
+------------------------------------------------------------------------------------------
+				**Baic Selectors**
+/*Basic selectors*/
+*{
+    color: red;
+}
+#heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.heading{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: green;
+}
+
+p {
+    letter-spacing: 20px;
+}
+
+-----------------------------------------------------------------------------------------
+				**Root pseudo class selector**
+/*css variables*/
+:root {
+    /*backround: red;*/
+}
+h1{
+    font-size: 3rem;
+}
+.absolute {
+    font-size:24px;
+}
+.responsive {
+    font-size: 24px;
+}
+---------------------------------------------------------------------------------------------
+				**Transfrom**
+/*
+    transform: translate(), scale(), rotate(),skew()
+
+*/
+div { 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one{
+    background: red;
+    transform: translateX(50%)
+}
+.two {
+    background: green;
+    transform: translateY(30px);  
+
+}
+.three {
+    background: blue;
+    transform: translat(200px, 300px);
+}
+
+-----------
+/*
+    transform: translate(), scale(), rotate(),skew()
+
+*/
+div { 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one{
+    background: red;
+    transform: scaleX(0.5)
+}
+.two {
+    background: green;
+    transform: scaleY(2);
+
+}
+.three {
+    background: blue;
+    transform: scale(0.5, 0.9);
+}
+------------
+/*
+    transform: translate(), scale(), rotate(),skew()
+
+*/
+div { 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one{
+    background: red;
+    
+}
+.two {
+    background: green;
+    transform: rotateZ(135deg);
+    transform: rotate(135deg);
+
+}
+.three {
+    background: blue;
+    transform: rotateY(90deg);
+}
+-------------
+/*
+    transform: translate(), scale(), rotate(),skew()
+
+*/
+div { 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.one{
+    background: red;
+    transform: skewX(-20deg);
+    
+}
+.two {
+    background: green;
+    transform: skewY(-20deg);
+ 
+
+}
+.three {
+    background: blue;
+    transform: skew(20deg);
+}
+-----------------------------------------------------------------------------------------
+			**Transition**
+/*
+    transition: change over time
+    transition-property:
+    transition-duratiom:
+
+*/
+div { 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background: coral;
+}
+.one{
+    background: red;
+}
+.two {
+    background: green;
+}
+.three {
+    background: blue;
+    transition-property: background;
+    transition-duration: 4s;
+}
+.three:hover{
+    border-radius: 50%;
+}
+-------------------------------
+/*
+    transition: change over time
+    transition-property:
+    transition-duratiom:
+
+*/
+div { 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background: coral;
+}
+.one{
+    background: red;
+}
+.two {
+    background: green;
+}
+.three {
+    background: blue;
+    transition-property: background;
+    transition-duration: 4s;
+}
+.three:hover{
+    border-radius: 50%;
+}
+------------
+/*
+    transition: change over time
+    transition-property:
+    transition-duratiom:
+
+*/
+div { 
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+div:hover{
+    background: coral;
+}
+.one{
+    background: red;
+}
+.two {
+    background: green;
+}
+.three {
+    background: blue;
+    transition-property: background;
+    transition-duration: 4s, 2s;
+    transition-delay: 3s;
+
+}
+.three:hover{
+    border-radius: 50%;
+    background: coral;
+}
+
+---------------------------------------------------------------------------------
+/*
+transition:change over time
+transition-delay:
+shorthand
+*/
+div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+}
+
+.one{
+    background: red;
+}
+.two{
+    background: green;
+}
+.three{
+    background: blue;
+    transition: all 4s 5s;
+
+}
+.three:hover{
+    border-radius: 50%;
+    background: coral;
+}
+--------------------------------------------------------
+/*
+how the transition takes place
+transition-timing-function:
+transition: al 3s here 5s;
+ease=default
+ease=slow start,fast,slow end
+linear=same speed start to end
+ease-in=slow start
+ease-out=slow end
+ease-in-out=slow start,fast,slow end
+*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    margin: 15px;
+    transition: all 1s linear;
+}
+div:hover{
+    transform: translate(100px);
+}
+.ease{
+transition: all 2s ease;
+transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function: linear;
+}
+.ease-out{
+    transition-timing-function: linear;
+}
+.ease-in-out{
+    transition-timing-function: linear;
+}
+------------------------------------------------------
+/*
+Transition 0=100%
+ANIMATION 0 1% 2% .......100%
+
+*/
+div{
+    width: 200px;
+    height: 100px;
+    color:white;
+    margin: 10px
+
+    ;
+}
+.transition{
+    background: red;
+    transition: all 2s linear;
+}
+.transition:hover{
+    background: yellow;
+    transform: translateX(100px);
+}
+.animation{
+    background: blue;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation: move 5s infinite;
+}
+@keyframes move{
+    0%{
+        transform: translateX(20px);
+
+    }
+    50%{
+        transform: translateX(100px);
+        background-color: red;
+    }
+    75%{
+        transform: translateX(-200px);
+        background-color: yellow;
+    }
+    100%{
+        transform: translateX((-200px));
+        background-color: green;
+    }
+}
+---------------------------------------------------
+/*
+animation-fill-mode:what values are applied by the animation outside the time it is execution
+
+*/
+div{
+    width: 200px;
+    height: 100px;
+    color:white;
+    margin: 10px;
+}
+
+.animation{
+    background: blue;
+    
+    animation: move 5s 2;
+    animation-fill-mode: forwards;
+}
+@keyframes move{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(200px);
+        opacity: 0.5;
+    }
+    50%{
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 0.5;
+    }
+    
+}
+----------------------------------------------------------------------------------------------------------
+					1.CSS VARIABLES
+					2.FONTAWESOME ICONS
+					3.TEXT-SHADOW,BOX-SHADOW
+					4.BROWSER PREFIXES
+					5.SEMANTIC HTML
+					6.EMMET SNIPPETS
+-----------------------------------------------------------------------------------------------------------
+/*
+CSS VARIABLES AKA custome properties
+hold a value and reuse it
+--varName::-ms-valueproperty:var(--varName)
+scope
+:root{}==global
+element===local
+any property
+*/
+
+.headong{
+    color: #f15025;
+}
+.text{
+    color: #32ff0e;
+}
+.main-text{
+    color:#1313fa;
+}
+.second-heading{
+    color: #f15025;
+}
+:root{
+    --primaryColor:#1313fa;
+    --secondaryColor: #f15025;
+    --mainTransition:all 0.4s linear;
+}
+.heading{
+    color: var(--primaryColor);
+}
+.second-heading{
+    color: var(--secondaryColor);
+
+}
+.second-heading:hover{
+    color: var(--secondaryColor);
+    
+}
+div{
+
+    --primaryred:red
+
+}
+.main-text{
+    color: var(--primaryred);
+}
+.third-heading{
+    color: var(--primaryred);
+}
+-----------------------------------------------------------
+/*
+ICONS
+font_awesome Icons
+Free ,easy to get up running, simple syntax
+*/
+.fa-home{
+    color:green;
+
+}
+.social-icon{
+    font-size: 4rem;
+    color: blue;
+}
+---------------------------------------------------------------
+/*
+test-shadow
+box-shadow
+*/
+h1{
+    text-shadow: 1px 1px 3px red;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background: blue;
+    margin: 20px;
+    box-shadow: 2em;
+}
+--------------------------------------------------------------------
+					SEMANTIC HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="main secondary"></h1>
+    <h1 class="main"></h1>
+    <h1 class="third" id="third"></h1>
+    <header class="header main"></header>
+    <div class="box-1" id="box"></div>
+    <div>
+        <div>
+            <ul>
+                <li> </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------
+
